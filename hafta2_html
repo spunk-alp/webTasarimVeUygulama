@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <embed src="music.df">
+    BU NE Kİ H<sub>2</sub>0
+    <thead>BURASI <br> TABLONUN <br> BAŞIDIR</thead>
+    
+    <table border = 10 bordercolor="yellow" bgcolor="red" width="1000" height="1000" background="images.jpg">
+        <caption align="bottom">ALT YAZI</caption>
+        <tr >
+            <td><b>1.SUTUN</b></td>
+            <td><b>2.SUTUN</b></td>
+        </tr>
+        <tr >
+            <td>2.5</td>
+            <td>5.5</td>
+
+        </tr>
+        <tr bcgolor = "green">
+            <td>5.4</td>
+            <td>1.7</td>
+
+        </tr>
+        
+
+    </table>
+   
+    <thead>BURASI <br> TABLONUN <br> BAŞIDIR</thead>
+    
+    <table border = 10 bordercolor="yellow" bgcolor="red" width="1000" height="1000" .jpg">
+        <caption align="bottom">ALT YAZI</caption>
+        <tr bgcolor  = "blue">
+            <td colspan="3"><b>1.SUTUN</b></td>
+            <td><b>2.SUTUN</b></td>
+        </tr>
+        <tr >
+            <td>2.5</td>
+            <td>5.5</td>
+
+        </tr>
+        <tr >
+            <td>5.4</td>
+            <td>1.7</td>
+
+        </tr>
+        
+
+    </table>
+    
+    <table>
+        <tr>
+            <td colspan="3">3</td>
+
+        </tr>
+    </table>
+    <table border="1" width="400" height="400">
+        <tr>
+            <td colspan="4">NE</td>
+            <td>Abo</td>
+
+        </tr>
+        <tr>
+            <td rowspan="2">olaa</td>
+            <td>essa</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
