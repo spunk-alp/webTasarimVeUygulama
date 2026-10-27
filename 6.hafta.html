@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <script src="deneme6.hafta.js"></script>
+</head>
+<form>
+    <input type="button" value="uyarı" onclick="uyari()";
+</form>
+<body>
+   <script type="text/javascript">
+    var text1, text2, plus1, plus2;
+    document.write("<h1>Selamlar</h1>");
+    text1="what";
+    text2="is that?";
+    var txtresult=text1+" "+text2;
+
+    document.write(text1+" "+text2+" ");
+    plus1=5;
+    plus2=3;
+    document.write(plus1+plus2);
+    document.write(txtresult);
+    var age = 21;
+    if(age<18){
+        document.write("Henüz reşit değilsiniz.");
+    }
+    else if(18<age<23){
+
+        document.write("<br>Reşitsin ama 23 yaşına gelmeden üniversiteyi bitirmelisin");
+    }
+    var boy= 176;
+    if(boy<170){
+        document.write("<br>boyunuz kısa");
+    }
+    else if(170<boy&&boy<185){
+        document.write("<br>boyunuz ideal");
+    }
+    else if(185<boy){
+        document.write("<br>boyunuz uzun");
+    }
+    var time = new Date().getHours();
+    if(time<10){
+        document.write("<br>Günaydın");
+    }
+    else if(time<20){
+        document.write("<br>iyi günler");
+
+    }
+    else{
+        document.write("<br>iyi geceler");
+    }
+    switch(10){
+        case 10:document.write("<br>saat 10");
+        break;
+        case 11:document.write("<br>saat 11");
+        break;
+
+    }
+    function uyari(){
+        alert("bu bir uyarı mesajıdır.");
+    }
+   </script> 
+</body>
+</html>
